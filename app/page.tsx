@@ -1,7 +1,9 @@
+import { Navbar } from "./sections/Navbar";
+
 export default function Home() {
   return (
-    <div>
-      Saad Anna
+    <div className="bg-black">
+    <Navbar />
     </div>
   );
 }
