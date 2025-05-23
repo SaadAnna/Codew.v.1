@@ -32,7 +32,9 @@ export const Navbar = () => {
               <a href="#about" className="text-white/70 hover:text-white transition">
                 About
               </a>
-              
+              <a href="#pricing" className="text-white/70 hover:text-white transition">
+                Pricing
+              </a>
               <a href="#contact" className="text-white/70 hover:text-white transition">
                 Contact
               </a>
