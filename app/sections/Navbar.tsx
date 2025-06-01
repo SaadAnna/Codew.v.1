@@ -103,7 +103,7 @@ export const Navbar = () => {
                 href="#work"
                 className="text-white/70 hover:text-white transition py-2 px-4 hover:bg-white/10 rounded-lg"
               >
-                Work
+                Pricing
               </a>
               <a
                 href="#about"
