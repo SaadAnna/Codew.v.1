@@ -17,7 +17,7 @@ export const Technology = () => {
       <div className="px-4 md:px-0 lg:max-w-4xl max-w-4xl mx-auto">
       <div className="flex items-center gap-5">
       <h2 className="text-white font-medium lg:text-3xl text-xl">
-      Our Technology
+      Technology
       </h2>
           <div className="flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
             <motion.div
