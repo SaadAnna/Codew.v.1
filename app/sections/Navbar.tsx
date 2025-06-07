@@ -11,7 +11,7 @@ export const Navbar = () => {
   return (
     <header className="py-4 border-b border-white/15 md:border-none sticky top-0 z-10">
       <div className="absolute inset-0 rounded-3xl backdrop-blur -z-10 md:hidden"></div>
-      <div className="px-4 md:px-0">
+      <div className="px-4">
         <div className="flex justify-between items-center md:border border-white/15 md:p-2.5 rounded-full lg:p-3 max-w-5xl lg:max-w-3xl mx-auto relative">
           <div className="absolute inset-0 rounded-xl backdrop-blur -z-10 hidden md:block"></div>
           <div>

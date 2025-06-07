@@ -14,7 +14,7 @@ import githublogo from "@/public/githublogo.png";
 export const Technology = () => {
   return (
     <section className="py-20">
-      <div className="px-4 md:px-0 lg:max-w-4xl max-w-4xl mx-auto">
+      <div className="px-4 lg:max-w-4xl max-w-4xl mx-auto">
       <div className="flex items-center gap-5">
       <h2 className="text-white font-medium lg:text-3xl text-xl">
       Technology
