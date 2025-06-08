@@ -67,7 +67,7 @@ const services = [
         />
       </svg>
     ),
-    title: "Shopify Developer",
+    title: "Shopify Partner",
     description:
       "Your one-stop shop for Shopify success. We design, develop, and optimize stores that not only look stunning but drive sales like clockwork.",
   },
