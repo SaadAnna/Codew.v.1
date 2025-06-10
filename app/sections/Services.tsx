@@ -82,7 +82,7 @@ export const Services = () => {
           {services.map((service) => (
             <div
               key={service.id}
-              className="flex flex-col relative  text-start justify-start gap-3.5 p-3.5 border border-white/20 rounded-xl cursor-pointer transition-300 hover:bg-white/4"
+              className="flex flex-col relative  text-start justify-start gap-3.5 p-3.5 bg-neutral-950 border border-white/5 rounded-xl cursor-pointer transition-300 hover:bg-white/4"
             >
               <div className="">{service.icon}</div>
               <div className="text-white tracking-tighter font-medium text-2xl">
