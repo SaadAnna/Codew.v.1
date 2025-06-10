@@ -3,6 +3,7 @@ import { Hero } from "./sections/Hero";
 import { Technology } from "./sections/Technology";
 import { Services } from "./sections/Services";
 import { Whyus } from "./sections/Whyus";
+import { Pricing } from "./sections/Pricing"
 export default function Home() {
   return (
     <div className="bg-black">
@@ -11,6 +12,7 @@ export default function Home() {
     <Technology />
     <Services />
     <Whyus />
+    <Pricing />
     </div>
   );
 }
