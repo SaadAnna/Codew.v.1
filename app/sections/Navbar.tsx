@@ -13,7 +13,7 @@ export const Navbar = () => {
       <div className="absolute inset-0 rounded-3xl backdrop-blur -z-10 md:hidden"></div>
       <div className="px-4">
         <div className="flex justify-between items-center md:border border-white/15 md:p-2.5 rounded-full lg:p-3 max-w-5xl lg:max-w-3xl mx-auto relative">
-          <div className="absolute inset-0 rounded-xl backdrop-blur -z-10 hidden md:block"></div>
+          <div className="absolute inset-0 rounded-full backdrop-blur -z-10 hidden md:block"></div>
           <div>
             <div className=" h-10 w-10 text-2xl text-center inline-flex justify-center items-center ">
             C
