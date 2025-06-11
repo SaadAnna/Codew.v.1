@@ -77,7 +77,7 @@ export const Services = () => {
     <section className="py-24" id="services">
       <div className="px-4 lg:max-w-4xl max-w-4xl mx-auto flex flex-col items-center gap-14">
         <div className="text-4xl md:text-[45px] mx-auto md:leading-none max-w-2xl font-semibold tracking-tight bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center">
-        What We Build        </div>
+        What We Build?       </div>
         <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
             <div
