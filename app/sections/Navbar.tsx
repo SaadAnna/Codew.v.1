@@ -23,14 +23,15 @@ export const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:block" id="navbar">
             <nav className="flex gap-8 text-sm ">
-              <a href="#hero" className="text-white/70 hover:text-white transition">
+              <a href="#home" className="text-white/70 hover:text-white transition">
                 Home
               </a>
-              <a href="#work" className="text-white/70 hover:text-white transition">
+              
+              <a href="#services" className="text-white/70 hover:text-white transition">
                 Services
               </a>
-              <a href="#about" className="text-white/70 hover:text-white transition">
-                About
+              <a href="#work" className="text-white/70 hover:text-white transition">
+                Work
               </a>
               <a href="#pricing" className="text-white/70 hover:text-white transition">
                 Pricing
@@ -94,10 +95,23 @@ export const Navbar = () => {
           <div className="bg-black/70 backdrop-blur-lg py-1 px-4 rounded-xl border border-white/15 h-fit">
             <nav className="flex flex-col gap-2">
               <a
-                href="#hero"
+                href="#home"
                 className="text-white/70 hover:text-white transition py-2 px-4 hover:bg-white/10 rounded-lg"
               >
                 Home
+              </a>
+           
+              <a
+                href="#services"
+                className="text-white/70 hover:text-white transition py-2 px-4 hover:bg-white/10 rounded-lg"
+              >
+                Services
+              </a>
+              <a
+                href="#Work"
+                className="text-white/70 hover:text-white transition py-2 px-4 hover:bg-white/10 rounded-lg"
+              >
+                Work
               </a>
               <a
                 href="#pricing"
@@ -105,18 +119,7 @@ export const Navbar = () => {
               >
                 Pricing
               </a>
-              <a
-                href="#about"
-                className="text-white/70 hover:text-white transition py-2 px-4 hover:bg-white/10 rounded-lg"
-              >
-                About
-              </a>
-              <a
-                href="#services"
-                className="text-white/70 hover:text-white transition py-2 px-4 hover:bg-white/10 rounded-lg"
-              >
-                Services
-              </a>
+             
               <a
                 href="#contact"
                 className="text-white/70 hover:text-white transition py-2 px-4 hover:bg-white/10 rounded-lg"
