@@ -1,30 +1,40 @@
+import ProjectOne from "@/public/projectone.png";
+import ProjectTwo from "@/public/projecttwo.png";
+import ProjectThree from "@/public/projectthree.png";
+import Image from "next/image";
 const Works = [
   {
     id: 1,
-    title: "Ai Seo Genarator Landing Page",
+    title: "Ai Seo Genarator",
     description:
-      "The AI SEO Generator Landing Page showcases an AI tool for creating optimized SEO content. It highlights features, benefits, and includes a call-to-action for user engagement.",
+      "A clean, mobile-friendly SaaS landing page designed to boost sign-ups. Features SEO-optimized content, lightning-fast speed, and a persuasive UX to maximize conversions.",
     fullproject: "Full Project",
+    projectlink: "https://dester.vercel.app/",
+    githublinkproject: "https://github.com/SaadAnna/Ai-SEO-Landing-Page.git",
     githbulink: "Github Code",
-    image: "Image EXample",
+    image: ProjectOne,
   },
   {
     id: 2,
     title: "Temse",
     description:
-      "A sleek, responsive landing page built with React.js, Vite, Tailwind CSS, and JavaScript. It highlights services, expertise, and includes a call-to-action to attract clients.e",
+      "A high-performance online store homepage designed to boost sales. Features SEO-optimized product displays, intuitive navigation, and mobile-first design for seamless shopping.",
     fullproject: "Full Project",
+    projectlink: "https://temse.netlify.app/",
+    githublinkproject: "https://github.com/SaadAnna/temse-shop.git",
     githbulink: "Github Code",
-    image: "Image EXample",
+    image: ProjectTwo,
   },
   {
     id: 3,
-    title: "Codew",
+    title: "Shopify App.",
     description:
-      "A sleek, responsive landing page built with React.js, Vite, Tailwind CSS, and JavaScript. It highlights services, expertise, and includes a call-to-action to attract clients.",
+      "A custom Shopify app interface built for speed, conversions, and merchant success. Features clean UI, responsive design, and API integrations for a frictionless user experience.",
     fullproject: "Full Project",
+    projectlink: "https://www.shopify.com/",
+    githublinkproject: "https://github.com/SaadAnna/export-Thingws.git",
     githbulink: "Github Code",
-    image: "Image EXample",
+    image: ProjectThree,
   },
 ];
 export const Work = () => {
@@ -38,7 +48,7 @@ export const Work = () => {
           {Works.map((work) => (
             <div
               key={work.id}
-              className="flex justify-between items-center gap-3.5 p-3.5 bg-neutral-950 border border-white/5 rounded-xl cursor-pointer transition-300 hover:bg-white/4"
+              className="flex flex-wrap items-center gap-3.5 p-3.5 bg-neutral-950 border border-white/5 rounded-xl cursor-pointer transition-300 hover:bg-white/4"
             >
               <div className="flex flex-col text-start gap-5">
                 <h1 className="text-4xl max-w-xl text-white font-medium ">
@@ -49,20 +59,28 @@ export const Work = () => {
                 </p>
                 <div className="flex gap-3 items-center">
                   <a
-                    href="#"
+                    href={work.projectlink}
+                    target="_blank"
                     className="text-black p-2 text-base bg-white rounded-full"
                   >
                     {work.fullproject}
                   </a>
                   <a
-                    href="#"
+                    href={work.githublinkproject}
+                    target="_blank"
                     className="text-white/20 text-base transition-all font-medium ease-in hover:text-white"
                   >
                     {work.githbulink}
                   </a>
                 </div>
               </div>
-              <h1 className="text-4xl max-w-xl text-white">{work.image}</h1>
+              <Image
+                width={350}
+                height={280}
+                src={work.image}
+                alt="project image"
+                className=" object-fill rounded-2xl"
+              />
             </div>
           ))}
         </div>
