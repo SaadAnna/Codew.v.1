@@ -24,11 +24,11 @@ const Pricings = [
     id: 1,
     title: "Premium",
     price: "999$",
-    featureone: "15+ Pages with E-Commerce Functionality (Shop, Cart, Checkout)",
-    featuretwo: "SEO + Speed Optimization (Rank higher on Google)",
-    featurethree: "Payment Gateway Integration (Stripe, PayPal, etc.)",
-    featurefour: "Product Management System",
-    featurefive: "6 Months Free Support & Maintenance",
+    featureone: "✔ 15+ Pages with E-Commerce Functionality (Shop, Cart, Checkout)",
+    featuretwo: "✔ SEO + Speed Optimization (Rank higher on Google)",
+    featurethree: "✔ Payment Gateway Integration (Stripe, PayPal, etc.)",
+    featurefour: "✔ Product Management System",
+    featurefive: "✔ 6 Months Free Support & Maintenance",
   },
 ];
 export const Pricing = () => {
