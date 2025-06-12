@@ -39,7 +39,7 @@ const Works = [
 ];
 export const Work = () => {
   return (
-    <section className="py-24">
+    <section className="py-24" id="work">
       <div className="px-4  lg:max-w-4xl max-w-4xl mx-auto flex flex-col gap-16 items-center overflow-hidden relative ">
         <h1 className="text-4xl md:text-[45px] mx-auto md:leading-none max-w-2xl font-semibold tracking-tight bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text text-center">
           Projects We’ve Built{" "}
