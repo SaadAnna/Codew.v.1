@@ -9,7 +9,7 @@ export const Hero = () => {
           We build fast, responsive, and SEO-friendly websites using HTML, CSS,
    Javascript, React.js, and Next.js...
         </p>
-        <a href="#contact" className="bg-neutral-900 px-7 py-2 mt-4 border border-white/15 rounded-full cursor-pointer text-white font-medium text-lg"> Let&apos;s Contact</a>
+        <a href="#contact" className="bg-neutral-900 px-7 py-2 mt-4 border border-white/15 rounded-full cursor-pointer text-white font-medium text-lg"> Let&apos;s Contact Now</a>
       </div>
     </section>
   );
