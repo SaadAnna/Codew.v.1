@@ -34,10 +34,9 @@ export const Contact = () => {
           />
                 <button
                 type="submit"
-
                 className="px-8 py-3 rounded-lg bg-gradient-to-r from-purple-950 to-purple-800 text-white font-medium hover:from-purple-950 hover:to-purple-700 focus:outline-none focus:ring-1 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-900 transition-all duration-300 disabled:opacity-70 justify-start"
               >
-                Send
+                Send Message
               </button>
         </div>
       </div>
