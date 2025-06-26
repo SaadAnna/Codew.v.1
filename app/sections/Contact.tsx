@@ -57,7 +57,7 @@ export const Contact = () => {
                 type="submit"
                 className="px-8 py-3 rounded-lg cursor-pointer focus:outline-none bg-gradient-to-r from-purple-950 to-purple-800 text-white font-medium hover:from-purple-950 hover:to-purple-700 "
               >
-                Send
+                Send Message
               </button>
         </div>
       </div>
