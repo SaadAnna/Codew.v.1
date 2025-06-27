@@ -6,6 +6,7 @@ import { Whyus } from "./sections/Whyus";
 import { Pricing } from "./sections/Pricing"
 import { Contact } from "./sections/Contact";
 import { Work } from "./sections/Work"
+import { Footer } from "./sections/Footer";
 export default function Home() {
   return (
     <div className="bg-black">
@@ -17,6 +18,7 @@ export default function Home() {
     <Work />
     <Pricing />
     <Contact />
+    <Footer />
     </div>
   );
 }
