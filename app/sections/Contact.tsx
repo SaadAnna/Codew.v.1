@@ -49,7 +49,7 @@ export const Contact = () => {
           </label>
           <textarea
             required
-            className="w-auto h-20 pl-3 border border-white/4 rounded-xl placeholder:text-white/45 placeholder:text-sm focus:border-white/20 focus:outline-none"
+            className="w-auto h-20 pl-3 p-2 border border-white/4 rounded-xl placeholder:text-white/45 placeholder:text-sm focus:border-white/20 focus:outline-none"
             placeholder="Subject..."
           />
           </div>
@@ -57,7 +57,7 @@ export const Contact = () => {
                 type="submit"
                 className="px-8 py-3 rounded-lg cursor-pointer focus:outline-none bg-gradient-to-r from-purple-950 to-purple-800 text-white font-medium hover:from-purple-950 hover:to-purple-700 "
               >
-                Send Message
+                Send
               </button>
         </div>
       </div>
