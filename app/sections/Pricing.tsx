@@ -2,33 +2,33 @@ const Pricings = [
   {
     id: 1,
     title: "Basic",
-    price: "159$",
+    price: "399$",
     featureone: "✔ 5 Custom Pages (Home, About, Services, Portfolio, Contact)",
     featuretwo: "✔  Mobile-Friendly Design (Responsive on all devices)",
     featurethree: "✔ Basic SEO Setup (Meta tags, keywords, sitemap)",
     featurefour: " ✔ Contact Form Integration",
     featurefive: "✔ 1 Month Free Support",
+    featuresix: "✔ Colour And Fonts Shema",
   },
   {
     id: 2,
     title: "Standard ",
-    price: "499$",
+    price: "759$",
     featureone: "✔ 10 Custom Pages (Extra pages like Blog, Testimonials, FAQ)",
     featuretwo: "✔ Mobile-Optimized & Fast Loading",
     featurethree: "✔ Advanced SEO Optimization (On-page SEO, speed optimization)",
     featurefour: "✔ Social Media Integration",
-    featurefive: "✔ Basic CMS (WordPress) Setup",
-    featuresix: "✔ 3 Months Free Support",
+    featuresix: "✔ 2 Months Free Support",
   },
   {
     id: 1,
     title: "Premium",
-    price: "999$",
+    price: "1299$",
     featureone: "✔ 15+ Pages with E-Commerce Functionality (Shop, Cart, Checkout)",
     featuretwo: "✔ SEO + Speed Optimization (Rank higher on Google)",
     featurethree: "✔ Payment Gateway Integration (Stripe, PayPal, etc.)",
     featurefour: "✔ Product Management System",
-    featurefive: "✔ 6 Months Free Support & Maintenance",
+    featurefive: "✔ 4 Months Free Support & Maintenance",
   },
 ];
 export const Pricing = () => {
@@ -43,7 +43,8 @@ export const Pricing = () => {
       {Pricings.map((pricing) => (
   <div
   key={pricing.id}
-  className="flex flex-col relative  text-start justify-start gap-3.5 p-3.5 bg-neutral-950 border border-white/5 rounded-xl cursor-pointer ease-in-out transition-all hover:border-white/20"
+ 
+  className="flex flex-col relative  text-start justify-start gap-3.5 p-3.5 bg-neutral-950 border border-white/5 rounded-xl ease-in-out transition-all hover:border-white/20"
 >
 <div className="flex justify-between items-center">
 
@@ -70,8 +71,12 @@ export const Pricing = () => {
 </div>
 <div className="text-base text-white/30 font-medium">
   {pricing.featurefive}
+</div> 
+<div className="text-base text-white/30 font-medium">
+  {pricing.featuresix}
+</div> 
 </div>
-</div>
+<a href="#contact" className="bg-black/20 px-7 py-2 mt-4 border border-white/15 rounded-lg text-center cursor-pointer text-white font-medium text-base"> Let&apos;s Start</a>
 </div>
  ))}
       </div>
