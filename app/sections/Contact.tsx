@@ -6,31 +6,22 @@ export const Contact = () => {
           Let&apos;s work together.{" "}
         </h1>
 
-        <div className="mt-14 gap-3 mx-auto flex flex-col p-5 border border-white/20 rounded-sm ">
-          <div className="flex gap-5 flex-wrap items-center">
-          <div className="flex flex-col text-start ">
-          <label className="block text-base font-medium mb-2">
-          First name
-          </label>
-            <input
-              type="text"
-              required
-              className="w-auto h-14 pl-3 border border-white/4 rounded-xl placeholder:text-white/45 placeholder:text-sm focus:border-white/20 focus:outline-none"
-              placeholder="Fist name..."
-            />
-            </div>
+        <form action="https://formsubmit.co/annasaaddev@gmail.com" method="POST" className="mt-14 gap-3 mx-auto flex flex-col p-5 border border-white/20 rounded-sm ">
+          
+            <div className="flex gap-8 flex-wrap items-center">
             <div className="flex flex-col text-start ">
             <label className="block text-base font-medium mb-2">
-          Last name
+          Full Name
           </label>
             <input
               type="text"
+              name="name"
               required
               className="w-auto h-14 pl-3 border border-white/4 rounded-xl placeholder:text-white/45 placeholder:text-sm focus:border-white/20 focus:outline-none"
-              placeholder="Last name..."
+              placeholder="Full Name..."
             />
             </div>
-          </div>
+     
           <div className="flex flex-col text-start" >
 
           <label className="block text-base font-medium mb-2">
@@ -38,10 +29,12 @@ export const Contact = () => {
           </label>
           <input
             type="email"
+            name="email"
             required
             className="w-auto h-14 pl-3 border border-white/4 rounded-xl placeholder:text-white/45 placeholder:text-sm focus:border-white/20 focus:outline-none"
             placeholder="Your Email..."
           />
+          </div>
           </div>
           <div className="flex flex-col text-start">
           <label className="block text-base font-medium mb-2">
@@ -49,6 +42,7 @@ export const Contact = () => {
           </label>
           <textarea
             required
+            name="message"
             className="w-auto h-20 pl-3 p-2 border border-white/4 rounded-xl placeholder:text-white/45 placeholder:text-sm focus:border-white/20 focus:outline-none"
             placeholder="Subject..."
           />
@@ -59,7 +53,7 @@ export const Contact = () => {
               >
                 Send
               </button>
-        </div>
+        </form>
       </div>
     </section>
   );
