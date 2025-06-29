@@ -44,7 +44,7 @@ export const Contact = () => {
             required
             name="message"
             className="w-auto h-20 pl-3 p-2 border border-white/4 rounded-xl placeholder:text-white/45 placeholder:text-sm focus:border-white/20 focus:outline-none"
-            placeholder="Subject..."
+            placeholder="Your Message..."
           />
           </div>
                 <button
